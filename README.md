@@ -5,7 +5,7 @@ The `generate_annotations.py` file calls a function `create_xml()` of `generate_
 
 ## How to use your own images to train the model for detecting custom objects
 
-First clone the darkflow repo(https://github.com/thtrieu/darkflow) and add the files of this repo inside the darkflow repo as we need the yolo model for the detection, also add `tiny-yolo-voc-1c.cfg` file of this repo to darkflow repo's "cfg/" folder.
+First download this(YOLO_Custom_Object_Detection) repo and clone the darkflow repo(https://github.com/thtrieu/darkflow). Now, add the files of YOLO_Custom_Object_Detection repo inside the darkflow repo as we need the yolo model for the detection, also add `tiny-yolo-voc-1c.cfg` file of this repo to darkflow repo's "cfg/" folder.
 
 Now, you can use `imageWebScrapper.py` file to download and save images into your local system by just entering the search term, for each search-term an individual forlder gets created. Once you download all the required images to their respective folders, you need to change the `images_dir` value and "folder names to take images from" in `images_concatenation.py` file. Now, change the value of `img_dir` value in `generate_annotations.py` file to the one you specified above and also change the `savedir`, `anno_dir`, `obj` values to something you like/something on which you are training on.
 
