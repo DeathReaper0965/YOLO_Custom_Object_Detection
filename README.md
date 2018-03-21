@@ -3,7 +3,7 @@
 This repo contains the code that can be used to detect "a ballpoint or a gel pen" that is placed in front of the webcam.
 The `generate_annotations.py` file calls a function `create_xml()` of `generate_xml.py` file which generates a "xml" file that is in-turn used for generating the annotations of objects(which in our case "pens"). You can even use this repo's scripts to train your own model to detect any custom object.
 
-## How to use your own images to train the network to detect custom objects
+## How to use your own images to train the model for detecting custom objects
 
 First clone the darkflow repo(https://github.com/thtrieu/darkflow) and add the files of this repo inside the darkflow repo as we need the yolo model for the detection, also add `tiny-yolo-voc-1c.cfg` file of this repo to darkflow repo's "cfg/" folder.
 
