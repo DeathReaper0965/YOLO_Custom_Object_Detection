@@ -4,7 +4,7 @@ import os
 from darkflow.net.build import TFNet
 import time
 
-options = {"model": "cfg/tiny-yolo-voc-1c.cfg", "load": "bin/yolo.weights", "gpu": 1.0, "threshold": 0.1}
+options = {"model": "cfg/tiny-yolo-voc-1c.cfg", "load": "4000", "gpu": 1.0, "threshold": 0.1}
 tfnet = TFNet(options)
 
 video = cv2.VideoCapture(0)
