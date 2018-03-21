@@ -1,0 +1,34 @@
+<annotation>
+  <folder>combined_images</folder>
+  <filename>000245.png</filename>
+  <segmented>0</segmented>
+  <size>
+    <width>207</width>
+    <height>243</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>technotip pen</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>74</xmin>
+      <ymin>5</ymin>
+      <xmax>97</xmax>
+      <xmin>239</xmin>
+    </bndbox>
+  </object>
+  <object>
+    <name>technotip pen</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>108</xmin>
+      <ymin>5</ymin>
+      <xmax>135</xmax>
+      <xmin>239</xmin>
+    </bndbox>
+  </object>
+</annotation>

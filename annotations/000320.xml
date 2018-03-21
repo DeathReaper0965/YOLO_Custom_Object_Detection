@@ -1,0 +1,22 @@
+<annotation>
+  <folder>combined_images</folder>
+  <filename>000320.png</filename>
+  <segmented>0</segmented>
+  <size>
+    <width>163</width>
+    <height>310</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>technotip pen</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>80</xmin>
+      <ymin>71</ymin>
+      <xmax>137</xmax>
+      <xmin>270</xmin>
+    </bndbox>
+  </object>
+</annotation>
